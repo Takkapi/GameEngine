@@ -1,8 +1,7 @@
 #pragma once
 
+#include "gepch.h"
 #include "Event.h"
-
-#include <sstream>
 
 namespace GameEngine {
 	class GAME_ENGINE_API WindowResizeEvent : public Event {

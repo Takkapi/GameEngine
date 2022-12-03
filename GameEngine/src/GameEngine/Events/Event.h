@@ -1,7 +1,8 @@
 #pragma once
 
+#include "gepch.h"
+
 #include "GameEngine/Core.h"
-#include <functional>
 
 namespace GameEngine {
 	enum class EventType {
