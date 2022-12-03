@@ -1,7 +1,7 @@
 # Dirs
 .vs/
 bin/
-bin~int/
+bin-int/
 
 # Files
 *.user
