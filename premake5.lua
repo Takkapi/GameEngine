@@ -19,7 +19,7 @@ project "GameEngine"
 
     files { "%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp" }
 
-    includedirs {"%{prj.name}/vendor/spdlog/include"}
+    includedirs {"%{prj.name}/src" ,"%{prj.name}/vendor/spdlog/include"}
 
     filter "system:windows"
         cppdialect "C++17"
